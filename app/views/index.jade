@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= "We <3 Pandas"
+  each image in images
+    img(src='images/#{image.filename}')
